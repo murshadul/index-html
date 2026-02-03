@@ -238,60 +238,89 @@ main {
 
 .feature {
     display: flex;
+    gap: 146px;
+    margin-top: 140px;
 }
 
+.feature-container {
+    max-width: 586px;
+}
+
+.feature-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    color: #FFFFFF;
+    margin-left: -92px;
+    margin-top: -122px;
+}
+
+.experience-year {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.j {
+    font-size: 1.25rem;
+    line-height: 40px;
+}
 
 /* Responsibe media query */
 @media screen and (max-width:576px) {
 
     .nav-links,
-    .navbar {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0 auto;
+    .navbar,
+    {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
 
-    }
+}
 
-    .navbar {
-        width: 100%;
-    }
+.navbar {
+    width: 100%;
+}
 
-    .team-img-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-    }
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+}
 
-    .team {
-        display: flex;
-        flex-direction: column;
+.team {
+    display: flex;
+    flex-direction: column;
 
-    }
+}
 
-    .our-feauture {
-        margin-left: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.our-feauture {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .fact-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 24px;
-    }
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
 
-    .sponsor-company {
-        grid-template-columns: 1fr;
-        gap: 24px;
+.sponsor-company {
+    grid-template-columns: 1fr;
+    gap: 24px;
 
-    }
+}
 
-    .sponsor-company img {
-        margin-left: 200px;
+.sponsor-company img {
+    margin-left: 200px;
 
-    }
+}
 
 
 
