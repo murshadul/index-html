@@ -269,6 +269,23 @@ main {
     line-height: 40px;
 }
 
+/* Footer style */
+.footer-container {
+    margin-top: 130px;
+
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text {
+    padding: 39px 410px;
+    font-size: 1.25rem;
+}
+
 /* Responsibe media query */
 @media screen and (max-width:576px) {
 
@@ -315,7 +332,7 @@ main {
     }
 
     .sponsor-company img {
-        margin-left: 100px;
+        margin-left: 160px;
 
     }
 
@@ -338,7 +355,15 @@ main {
     }
 
 
+    /* footer */
+    .footer-container {
+        margin-top: 50px;
+    }
 
+    .footer-text {
+        padding: 0;
+        font-size: .80rem;
+    }
 
 }
 
