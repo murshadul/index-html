@@ -332,7 +332,7 @@ main {
     }
 
     .sponsor-company img {
-        margin-left: 160px;
+        margin-left: 100px;
 
     }
 
@@ -362,7 +362,7 @@ main {
 
     .footer-text {
         padding: 0;
-        font-size: .80rem;
+        font-size: .50rem;
     }
 
 }
