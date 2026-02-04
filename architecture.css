@@ -322,6 +322,20 @@ main {
 
 }
 
+.feature {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature img {
+    width: 100%;
+}
+
+#experience-badge {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
 
 
